@@ -1,0 +1,9 @@
+{
+	"name": "VinitFactoryProject",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "26c28dd2-60d5-4d05-b27c-bfd9500c0538",
+		"tenantId": "b5e6768b-da27-4bb5-8870-a43b67dd58c9"
+	}
+}
