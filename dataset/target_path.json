@@ -1,0 +1,23 @@
+{
+	"name": "target_path",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLaktarget",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"file_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "mss",
+				"fileSystem": "inbound"
+			}
+		}
+	}
+}
