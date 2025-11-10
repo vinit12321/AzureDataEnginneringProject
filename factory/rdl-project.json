@@ -1,0 +1,9 @@
+{
+	"name": "rdl-project",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6c1f8036-7ce6-46ea-9b80-4028dc28714e",
+		"tenantId": "3f9e14ac-a9f3-4ba4-a328-ca6f08a39161"
+	}
+}
