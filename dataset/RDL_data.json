@@ -1,0 +1,22 @@
+{
+	"name": "RDL_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"name": "vinit_dabake",
+				"project": "data_engineering"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "common",
+				"fileSystem": "aboutput"
+			}
+		}
+	}
+}
